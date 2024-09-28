@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-st.title("🍜 My chatbot app")
+st.title("🍜 Ichiban chatbot app")
 st.subheader("Conversation")
 
 # user_input = st.text_input("You:", placeholder="Type your message here...")
