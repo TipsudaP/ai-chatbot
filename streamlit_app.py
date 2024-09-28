@@ -34,7 +34,7 @@ st.subheader("Conversation")
 #     st.chat_message("user").markdown(prompt)
 
 # Capture Gemini API Key
-gemini_api_key = st.text_input("Gemini API Key: ", placeholder="AIzaSyC6d_v1aCpK1JK2o8UYxEw5hzlGpQuAjd4", type="password")
+gemini_api_key = st.text_input("Gemini API Key: ", placeholder="Type API key...", type="password")
 
 # Initialize the Gemini Model
 if gemini_api_key:
